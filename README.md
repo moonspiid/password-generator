@@ -1,5 +1,16 @@
 # Password Generator
 
+<p>
+  <img alt="python, 3.8+" src="https://img.shields.io/badge/python-3.8%2B-3776ab?labelColor=30363d">
+  <img alt="dependencies, none" src="https://img.shields.io/badge/dependencies-none-2ea043?labelColor=30363d">
+  <img alt="randomness from the secrets module" src="https://img.shields.io/badge/randomness-secrets-8957e5?labelColor=30363d">
+  <img alt="single-file CLI" src="https://img.shields.io/badge/cli-single%20file-1f6feb?labelColor=30363d">
+  <br>
+  <img alt="install, none" src="https://img.shields.io/badge/install-none-2ea043?labelColor=30363d">
+  <img alt="output to stdout only" src="https://img.shields.io/badge/output-stdout%20only-bf8700?labelColor=30363d">
+  <img alt="MIT license" src="https://img.shields.io/badge/license-MIT-ea7a15?labelColor=30363d">
+</p>
+
 A small command-line tool that prints strong random passwords. It uses Python's
 `secrets` module, the standard library's cryptographically secure source of
 randomness, so the output is suitable for real accounts. There is nothing to
@@ -73,3 +84,9 @@ producing a weaker password.
   ```bash
   python3 password_generator.py >> ~/.passwords.txt
   ```
+
+## Tags
+
+#Python #Security #PasswordGenerator #CLI #OpenSource #NoDependencies
+
+`python` `password-generator` `security` `cli` `command-line` `cryptography` `secrets` `password` `no-dependencies` `open-source` `single-file`
